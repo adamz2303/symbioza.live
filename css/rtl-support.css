@@ -1,0 +1,29 @@
+.rtl-layout { 
+    direction: rtl; 
+    text-align: right; 
+}
+
+.rtl-layout .container, 
+.rtl-layout .input-box, 
+.rtl-layout .responses { 
+    text-align: right; 
+}
+
+.rtl-layout #questionInput { 
+    text-align: right; 
+    direction: rtl; 
+}
+
+.rtl-layout .progress-info { 
+    flex-direction: row-reverse; 
+}
+
+/* DODATKOWE POPRAWKI DLA RTL */
+.rtl-layout .breathing-lights,
+.rtl-layout .halo-circle {
+    direction: ltr; /* Światła i animacje niech zostaną LTR */
+}
+
+.rtl-layout .share-buttons {
+    direction: ltr;
+}
